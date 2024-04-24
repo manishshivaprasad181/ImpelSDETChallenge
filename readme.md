@@ -50,8 +50,8 @@ _Test Report can be found in report.html file_
       3.     Leave the username and password fields empty.
       4.     Click on the login button.
       5.     Verify that the appropriate error message is displayed.
-   Expected Result: The system should display an error message indicating that the credentials cannot be empty.
-   Actual Result:Please fill out this field.
+    Expected Result: The system should display an error message indicating that the credentials cannot be empty.
+    Actual Result:Please fill out this field.
 
 #### Test case 3:Login with valid credentials
    
