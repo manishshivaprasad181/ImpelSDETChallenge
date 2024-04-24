@@ -7,19 +7,19 @@
 
 ### **Set the environment variables for storing ADMIN Email and Password**
 
-   For security purpose ADMIN Email and Password is stored in os environment variables
-    Run this command in terminal 
-        echo $SHELL, This command will output the path to your 
-        default shell executable (e.g., /bin/bash, /bin/zsh, etc.).
-    Depending on your default shell, you'll edit the corresponding configuration file:
-        For Bash: ~/.bash_profile or ~/.bashrc
-        For Zsh: ~/.zshrc
-    In Terminal, use a text editor like nano, vim, or TextEdit to open the configuration file
-        nano ~/.zshrc
-    Add the Environment Variable:
-        export VALID_EMAIL=manish@impel.io
-        export VALID_PASSWORD=WGZbeRGL
-    Save and exit the editor
+       For security purpose ADMIN Email and Password is stored in os environment variables
+        Run this command in terminal 
+            echo $SHELL, This command will output the path to your 
+            default shell executable (e.g., /bin/bash, /bin/zsh, etc.).
+        Depending on your default shell, you'll edit the corresponding configuration file:
+            For Bash: ~/.bash_profile or ~/.bashrc
+            For Zsh: ~/.zshrc
+        In Terminal, use a text editor like nano, vim, or TextEdit to open the configuration file
+            nano ~/.zshrc
+        Add the Environment Variable:
+            export VALID_EMAIL=manish@impel.io
+            export VALID_PASSWORD=WGZbeRGL
+        Save and exit the editor
 
 ### **Steps to Run**
 
@@ -55,15 +55,15 @@ _Test Report can be found in report.html file_
 
 #### Test case 3:Login with valid credentials
    
-   objective:To verify that the login page allows access with valid credentials.
-   Test Steps:
-      1.     Open the Chrome browser.
-      2.     Navigate to the login page.
-      3.     Enter valid credentials.
-      4.     Click on the login button.
-      5.     Verify that the user is successfully logged in and directed to the expected page and verify if logout button is displayed
-   Expected Result: The system should allow access and redirect the user to the intended page after successful login and was able to logout
-   Actual Result: The login was successfully done and redirected to the user dashboard and logout button was found 
+       objective:To verify that the login page allows access with valid credentials.
+       Test Steps:
+          1.     Open the Chrome browser.
+          2.     Navigate to the login page.
+          3.     Enter valid credentials.
+          4.     Click on the login button.
+          5.     Verify that the user is successfully logged in and directed to the expected page and verify if logout button is displayed
+       Expected Result: The system should allow access and redirect the user to the intended page after successful login and was able to logout
+       Actual Result: The login was successfully done and redirected to the user dashboard and logout button was found 
 
 #### Test case 4:Validate Empty Inputs on Add Customer Page
 
